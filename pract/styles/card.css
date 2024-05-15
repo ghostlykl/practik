@@ -1,0 +1,274 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    
+}
+
+.container{
+    width: 100%;
+    height: 1080px;
+}
+
+.header-container {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b3847;
+}
+
+.header-logo{
+    width: 100px;
+    padding-right: 42px;
+}
+
+
+.header-btn{
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 42px;
+}
+
+.header-btn1{
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 42px;
+}
+
+.header-btn2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list{
+    padding-left: 29px;
+    padding-right: 30px;
+}
+
+
+.contacts-container{
+    padding-left: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -330px;
+}
+
+.phone-img{
+    padding-right: 8px;
+}
+
+.contacts-text{
+    font-weight: 12px;
+    color: white;
+    font-weight: 300;
+}
+
+.cont-bread{
+    display: flex;
+    align-items: center;
+
+}
+
+.bread{
+    width: 550px;
+    padding-left: 16%;
+}
+
+ul.breadcrumb {
+    padding: 40px;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+    color: #42372D;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #888888;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0000008e;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #42372D;
+    text-decoration: underline;
+}
+
+.card-content{
+    margin-left: 60px;
+    margin-top: -28px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-tovar{
+    width: 513px;
+    height: 513px;
+    background-image: url("../img/card8.8.png");
+    background-repeat: no-repeat;
+    border: #466eaa solid 2px;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.tov-size-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tov-size-block{
+    width: 163px;
+    height: 56px;
+    background-color: white;
+    border: #466eaa solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.size{
+    font-size: 20px;
+}
+
+.btn-buy{
+    background-color: #466eaa;
+    width: 262px;
+    height: 78px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-tov-container{
+    display: flex;
+}
+
+.price-title{
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+}
+
+.price{
+    margin-top: 170px;
+    font-size: 20px;
+    color: black;
+}
+
+.btn-text{
+    margin-left: 20px;
+}
+
+.footer{
+    margin-top: -150px;
+    width: 100%;
+    height: 336px;
+    background-color: #1D1916;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 144px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 187px;
+    margin-top: -25px;
+}
+
+.footer-a-left{
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+    padding-top: 8px;
+}
+
+.footer-contacts{
+    padding-left: 349px;
+}
+
+.footer-email,
+.footer-phone{
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+}
+
+.arrow{
+    padding-left: 220px;
+}
+
+.footer-copyright{
+    position: absolute;
+    margin-top: 290px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.container-cat{
+    display: flex;
+    justify-content: center;
+}
+
+.card-tv{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.btn-cardd {
+    background-color: #466eaa;
+    width: 262px;
+    height: 78px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-textt{
+    margin-top: 15px;
+    font-size: 20px;
+}
